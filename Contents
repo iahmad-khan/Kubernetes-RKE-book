@@ -1,0 +1,66 @@
+
+
+Main Tile: Kubernetes Cluster Administration using IAC tools
+
+Sub title:  How to setup production Kubernetes cluster using Terraform and RKE
+
+
+1. Introduction
+
+  - Why I need to write this short book
+  - Who should read this book
+  - Github Repo
+
+
+
+2. RKE , Terraform and IAC
+
+   - Why IAC is better than using some Web UI/Blackbox
+   - What is RKE , what it offers and how it works
+   - Why Terraform
+   - RKE Terraform module on Github
+   - Setting Up the environement and installing tools
+
+
+3. Setting Up Production Clsuter
+
+   - Write Cluster.tf and Explain it
+   - Create the cluster from code using Terraform plan and Terraform apply
+   - Setting up backups and restores
+   - Load balacing API requests
+   - Exposing services outside the cluster
+
+
+4. Setting Up Logging using ELK
+
+   - What is ELK and why its useful
+   - Deploy ELK cluster using Helm
+   - Deploy Flunetbit to send Cluster and App logs to ELK
+
+
+6. Monitoring using Promethous and Grafana
+
+   - Deploy Promethous and grafana to setup monitoring Dashboards
+
+
+7. Using RBAC , PSPs and Service accounts
+
+   - RBAC
+   - PSPs
+   - Service Accounts
+   - Setup some RBAC rules and PSPs
+   - Setup some service accounts for users
+
+
+8. Persisting Data using NFS and Local volumes
+
+   - use nfs as dynamic volume provisioner
+   - use nfs as file share for pods/deployments
+
+
+9. Setting up CI/CD using Gitlab
+
+   - Setup a CI/CD pipleine using Docker , Gitlab and Kubernetes for a Python app using GitOps
+
+10. Final Thoughts
+
