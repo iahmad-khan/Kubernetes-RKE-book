@@ -56,6 +56,7 @@ Sub title:  How to setup production Kubernetes cluster using Terraform and RKE
 
    - use nfs as dynamic volume provisioner
    - use nfs as file share for pods/deployments
+   - using local volumes , use cases
 
 
 8. Setting up CI/CD using Gitlab
