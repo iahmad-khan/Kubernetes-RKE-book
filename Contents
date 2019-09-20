@@ -22,7 +22,7 @@ Sub title:  How to setup production Kubernetes cluster using Terraform and RKE
    - Setting Up the environement and installing tools
 
 
-3. Setting Up Production Clsuter
+3. Setting Up Production Cluster
 
    - Write Cluster.tf and Explain it
    - Create the cluster from code using Terraform plan and Terraform apply
@@ -38,12 +38,12 @@ Sub title:  How to setup production Kubernetes cluster using Terraform and RKE
    - Deploy Flunetbit to send Cluster and App logs to ELK
 
 
-6. Monitoring using Promethous and Grafana
+5. Monitoring using Promethous and Grafana
 
    - Deploy Promethous and grafana to setup monitoring Dashboards
 
 
-7. Using RBAC , PSPs and Service accounts
+6. Using RBAC , PSPs and Service accounts
 
    - RBAC
    - PSPs
@@ -52,15 +52,15 @@ Sub title:  How to setup production Kubernetes cluster using Terraform and RKE
    - Setup some service accounts for users
 
 
-8. Persisting Data using NFS and Local volumes
+7. Persisting Data using NFS and Local volumes
 
    - use nfs as dynamic volume provisioner
    - use nfs as file share for pods/deployments
 
 
-9. Setting up CI/CD using Gitlab
+8. Setting up CI/CD using Gitlab
 
    - Setup a CI/CD pipleine using Docker , Gitlab and Kubernetes for a Python app using GitOps
 
-10. Final Thoughts
+9. Final Thoughts
 
