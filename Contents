@@ -2,7 +2,7 @@
 
 Main Tile: Kubernetes Cluster Administration using IAC tools
 
-Sub title:  How to setup production Kubernetes cluster using Terraform and RKE
+Sub title:  How to Setup Production Kubernetes Clusters using Terraform and RKE
 
 
 1. Introduction
@@ -27,7 +27,7 @@ Sub title:  How to setup production Kubernetes cluster using Terraform and RKE
    - Write Cluster.tf and Explain it
    - Create the cluster from code using Terraform plan and Terraform apply
    - Setting up backups and restores
-   - Load balacing API requests
+   - Load balacing API requests for Cluster users 
    - Exposing services outside the cluster
 
 
