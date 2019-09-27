@@ -15,6 +15,8 @@ Sub title:  How to Setup Production Kubernetes Clusters using Terraform and RKE
 
 2. RKE , Terraform and IAC
 
+   - My experience with container adoption
+   - Docker enterprise , Openshift and Other tools
    - Why IAC is better than using some Web UI/Blackbox
    - What is RKE , what it offers and how it works
    - Why Terraform
@@ -54,6 +56,13 @@ Sub title:  How to Setup Production Kubernetes Clusters using Terraform and RKE
 
 7. Persisting Data using NFS and Local volumes
 
+
+   - problems with nfs security 
+
+     - problems with shared NFS server
+     - lack of kerberos support from kubernetes
+     - using separate isolated servers
+     
    - use nfs as dynamic volume provisioner
    - use nfs as file share for pods/deployments
    - using local volumes , use cases
@@ -65,3 +74,8 @@ Sub title:  How to Setup Production Kubernetes Clusters using Terraform and RKE
 
 9. Final Thoughts
 
+ - Free Online Virtual  environments for learing Docker and Kubernetes
+ - Kubernetes Documentation
+ - Recommended Books
+ 
+ 
