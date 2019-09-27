@@ -37,6 +37,7 @@ Sub title:  How to Setup Production Kubernetes Clusters using Terraform and RKE
 
    - What is ELK and why its useful
    - Deploy ELK cluster using Helm
+   - Send each cluster logs to separate ELK tenant
    - Deploy Flunetbit to send Cluster and App logs to ELK
 
 
